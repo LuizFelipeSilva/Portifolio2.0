@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { User, MapPin, Coffee, Music, Book, Target, Menu, X , Dumbbell} from 'lucide-react';
+import { User, MapPin, Coffee, Music, Book, Target, Menu, X , Dumbbell, LucideProps} from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const Header = () => {
@@ -79,7 +79,9 @@ const Footer = () => {
   );
 };
 
-const CreativeFrame = ({ children }) => (
+const CreativeFrame: React.FC<{
+  children: React.ReactNode;
+}> = ({ children }) => (
   <div className="relative p-2">
     <div className="absolute inset-0 bg-gradient-to-br from-purple-500 via-pink-500 to-red-500 transform rotate-2 rounded-lg"></div>
     <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 via-teal-500 to-green-500 transform -rotate-2 rounded-lg"></div>
@@ -89,7 +91,16 @@ const CreativeFrame = ({ children }) => (
   </div>
 );
 
-const AboutSection = ({ title, icon: Icon, children }) => (
+export interface SectionProps {
+  title?: string;
+  text?: string;
+  label?: string;
+  href?: string;
+  icon: React.ForwardRefExoticComponent<Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+  children?: React.ReactNode;
+}
+
+const AboutSection: React.FC<SectionProps> = ({ title, icon: Icon, children }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
@@ -209,7 +220,7 @@ export default function About() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
       messages: (await import(`../messages/${locale}.json`)).default

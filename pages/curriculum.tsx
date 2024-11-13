@@ -3,8 +3,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Book, Briefcase, Globe, Award, FileText, Lightbulb, Menu, X } from 'lucide-react';
+import { Book, Briefcase, Globe, Award, FileText, Lightbulb, Menu, X, LucideProps } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { SectionProps } from './about';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -83,7 +84,7 @@ const Footer = () => {
   );
 };
 
-const Section = ({ title, icon: Icon, children }) => {
+const Section: React.FC<SectionProps> = ({ title, icon: Icon, children }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -102,7 +103,12 @@ const Section = ({ title, icon: Icon, children }) => {
   );
 };
 
-const TimelineItem = ({ title, subtitle, date, description }) => (
+const TimelineItem: React.FC<{
+  title: string;
+  subtitle: string;
+  date: string;
+  description: string;
+}> = ({ title, subtitle, date, description }) => (
   <div className="mb-6 last:mb-0">
     <h3 className="text-lg sm:text-xl font-semibold">{title}</h3>
     <p className="text-purple-300 text-sm sm:text-base">{subtitle}</p>
@@ -111,7 +117,11 @@ const TimelineItem = ({ title, subtitle, date, description }) => (
   </div>
 );
 
-const Filter = ({ sections, activeSection, setActiveSection }) => {
+const Filter: React.FC<{
+  sections: Section[];
+  activeSection: string;
+  setActiveSection: (s: string) => void;
+}> = ({ sections, activeSection, setActiveSection }) => {
   const t = useTranslations('Curriculum');
   return (
     <div className="mb-6 flex flex-wrap justify-center gap-2">
@@ -134,11 +144,18 @@ const Filter = ({ sections, activeSection, setActiveSection }) => {
   );
 };
 
+interface Section {
+  id: string;
+  title: string;
+  icon: React.ForwardRefExoticComponent<Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+  content: React.JSX.Element;
+}
+
 export default function Curriculum() {
   const [activeSection, setActiveSection] = useState('all');
   const t = useTranslations('Curriculum');
 
-  const sections = [
+  const sections: Section[] = [
     { 
       id: "education",
       title: t('sections.education.title'), 
@@ -297,7 +314,7 @@ export default function Curriculum() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
       messages: (await import(`../messages/${locale}.json`)).default

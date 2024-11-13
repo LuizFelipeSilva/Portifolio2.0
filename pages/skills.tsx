@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Code, Database, Server, Cpu, Globe, X, Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { SectionProps } from './about';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -78,7 +79,9 @@ const Footer = () => {
   );
 };
 
-const SkillCategory = ({ title, icon: Icon, skills, isExpanded, onClick }) => {
+const SkillCategory: React.FC<SectionProps & {
+  onClick: () => void;
+}> = ({ title, icon: Icon, onClick }) => {
   const t = useTranslations('Skills');
   return (
     <motion.div
@@ -97,7 +100,10 @@ const SkillCategory = ({ title, icon: Icon, skills, isExpanded, onClick }) => {
   );
 };
 
-const SkillDetail = ({ skill, onClose }) => {
+const SkillDetail: React.FC<Omit<SectionProps, 'icon'> & {
+  onClose: () => void;
+  skill: Skill;
+}> = ({ skill, onClose }) => {
   const t = useTranslations('Skills');
   return (
     <motion.div
@@ -124,10 +130,17 @@ const SkillDetail = ({ skill, onClose }) => {
   );
 };
 
+export interface Skill  {
+  name: string;
+  experienceLevel: string;
+  description: string;
+  projects: string[];
+}
+
 export default function Skills() {
   const t = useTranslations('Skills');
-  const [expandedCategory, setExpandedCategory] = useState(null);
-  const [selectedSkill, setSelectedSkill] = useState(null);
+  const [expandedCategory, setExpandedCategory] = useState<number>();
+  const [selectedSkill, setSelectedSkill] = useState<Skill>();
 
   const skillCategories = [
     {
@@ -246,12 +259,12 @@ export default function Skills() {
     },
   ];
 
-  const handleCategoryClick = (index) => {
-    setExpandedCategory(expandedCategory === index ? null : index);
-    setSelectedSkill(null);
+  const handleCategoryClick = (index: number) => {
+    setExpandedCategory(expandedCategory === index ? undefined : index);
+    setSelectedSkill(undefined);
   };
 
-  const handleSkillClick = (skill) => {
+  const handleSkillClick = (skill: Skill) => {
     setSelectedSkill(skill);
   };
 
@@ -279,7 +292,7 @@ export default function Skills() {
                 <SkillCategory
                   key={index}
                   {...category}
-                  isExpanded={expandedCategory === index}
+                  // isExpanded={expandedCategory === index}
                   onClick={() => handleCategoryClick(index)}
                 />
               ))}
@@ -298,13 +311,13 @@ export default function Skills() {
                 <div className="bg-white bg-opacity-10 rounded-lg p-6 relative">
                   <button
                     className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
-                    onClick={() => setExpandedCategory(null)}
+                    onClick={() => setExpandedCategory(undefined)}
                   >
                     <X size={24} />
                   </button>
-                  <h2 className="text-3xl font-bold mb-4">{skillCategories[expandedCategory].title}</h2>
+                  <h2 className="text-3xl font-bold mb-4">{skillCategories[expandedCategory || 0].title}</h2>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    {skillCategories[expandedCategory].skills.map((skill, index) => (
+                    {skillCategories[expandedCategory || 0].skills.map((skill, index) => (
                       <motion.button
                         key={index}
                         initial={{ opacity: 0, y: 20 }}
@@ -321,7 +334,7 @@ export default function Skills() {
                     {selectedSkill && (
                       <SkillDetail 
                         skill={selectedSkill} 
-                        onClose={() => setSelectedSkill(null)} 
+                        onClose={() => setSelectedSkill(undefined)} 
                       />
                     )}
                   </AnimatePresence>
@@ -337,7 +350,7 @@ export default function Skills() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
       messages: (await import(`../messages/${locale}.json`)).default

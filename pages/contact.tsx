@@ -1,10 +1,11 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { ReactEventHandler, useState } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mail, Phone, MapPin, Github, Linkedin, Instagram, Menu, X, MessageCircle } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { SectionProps } from './about';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -80,7 +81,7 @@ const Footer = () => {
   );
 };
 
-const SocialIcon = ({ icon: Icon, href, label }) => (
+const SocialIcon: React.FC<SectionProps> = ({ icon: Icon, href, label }) => (
   <motion.a
     href={href}
     target="_blank"
@@ -99,11 +100,11 @@ const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const t = useTranslations('Contact.form');
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormState({ ...formState, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Here you would typically send the form data to a server
     console.log('Form submitted:', formState);
@@ -173,7 +174,7 @@ const ContactForm = () => {
   );
 };
 
-const ContactInfo = ({ icon: Icon, text }) => (
+const ContactInfo: React.FC<SectionProps> = ({ icon: Icon, text }) => (
   <motion.div
     whileHover={{ scale: 1.05 }}
     className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg shadow-md"
@@ -258,7 +259,7 @@ export default function Contact() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
       messages: (await import(`../messages/${locale}.json`)).default

@@ -79,7 +79,9 @@ const Footer = () => {
   );
 };
 
-const ProjectCard = ({ project }) => {
+const ProjectCard: React.FC<{
+  project: Project;
+}> = ({ project }) => {
   const t = useTranslations('Projects');
   
   return (
@@ -112,7 +114,17 @@ const ProjectCard = ({ project }) => {
   );
 };
 
-const projects = [
+export interface Project {
+  id: string;
+  image: string;
+  technologies: string[];
+  date: string;
+  team: string;
+  codebase: string;
+  tools: string[];
+}
+
+const projects: Project[] = [
   {
     id: 'software-modeling',
     image: "/flags/imagem-modelagem.png",
@@ -167,7 +179,7 @@ export default function Projects() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
       messages: (await import(`../messages/${locale}.json`)).default,
