@@ -1,0 +1,309 @@
+{
+  "Index": {
+    "title": "My Portfolio - LFOLS",
+    "description": "Welcome to my portfolio",
+    "portfolioTitle": "My Portfolio",
+    "about": "About",
+    "experiences": "Experiences",
+    "skills": "Skills",
+    "projects": "Projects",
+    "curriculum": "Curriculum",
+    "contact": "Contact",
+    "welcome": "Welcome to My Portfolio",
+    "tagline": "Creating digital experiences and enriching my knowledge",
+    "rightsReserved": "All rights reserved."
+  },
+  "Header": {
+    "portfolioTitle": "My Portfolio",
+    "about": "About",
+    "experiences": "Experiences",
+    "skills": "Skills",
+    "projects": "Projects",
+    "curriculum": "Curriculum",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "copyright": "LFOLS Portfolio. All rights reserved."
+  },
+  "About": {
+    "title": "About Me",
+    "whoAmI": {
+      "title": "Who Am I?",
+      "paragraph1": "Hello! I am Luiz Felipe de Oliveira Lacerda e Silva, 22 years old, Brazilian, and living in the East zone of São Paulo (SP).",
+      "paragraph2": "I am very determined and pursue my goals with discipline, integrating my daily growth across various aspects of my life; I maintain strong organization in my routines and environments, which helps keep my progress dynamic. I believe that everything is an experience; every day we live, we can learn something new. We just need to see the side that brings learning, to always become better."
+    },
+    "myJourney": {
+      "title": "My Journey",
+      "paragraph1": "In my childhood, I developed a great passion for games, for competition, and for fun moments with friends, which brought me closer to technology. Creating limitless possibilities that can change people’s lives, whether by creating new entertainment or making daily life easier; being part of the creation of new processes led me to decide to follow a career in technology.",
+      "paragraph2": "Now, I am living this dream every day and specializing to positively impact solution development."
+    },
+    "interests": {
+      "title": "Interests",
+      "intro": "Besides programming, I am passionate about:",
+      "interest1": "Physical activity - Bodybuilding",
+      "interest2": "Music",
+      "interest3": "Reading",
+      "conclusion": "These interests are part of my routine and discipline, helping me grow as a person and professionally, as well as maintaining balance in my life."
+    },
+    "futureGoals": {
+      "title": "Future Goals",
+      "intro": "Looking ahead, I have several goals and ambitions that keep me moving forward:",
+      "goal1": "Master AI applications to amplify efficiency in various sectors",
+      "goal2": "Contribute to innovative projects that bring different and revolutionary solutions",
+      "goal3": "Lead teams motivated to elevate the level of technology",
+      "goal4": "Enhance self-knowledge and interpersonal relationships",
+      "conclusion": "These goals drive my continuous learning and motivate me to explore new horizons in software development."
+    },
+    "image1Alt": "Your Image 1",
+    "image2Alt": "Your Image 2",
+    "connect": {
+      "title": "Let’s Connect!",
+      "description": "I am always open to new opportunities, collaborations, or simply a friendly conversation about technology.",
+      "emailButton": "Send me an Email",
+      "linkedinButton": "LinkedIn"
+    }
+  },
+  "Skills": {
+    "title": "My Skills",
+    "subtitle": "Explore my technical experience across various domains of software development",
+    "clickToViewSkills": "Click to view skills",
+    "experienceLevel": "Experience Level",
+    "relatedProjects": "Related Projects",
+    "experienceLevels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "categories": {
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "api": "API",
+      "database": "Database",
+      "ai": "AI"
+    },
+    "skills": {
+      "react": "Improving in building complex and scalable applications with React and its ecosystem.",
+      "javaScript": "Knowledge of modern JavaScript, focused on best practices, performance, and writing clean and efficient code.",
+      "htmlCss": "Expert in creating responsive and accessible web layouts.",
+      "C#": "Basic experience in developing robust and secure applications with C#, using the .NET framework to create scalable backend APIs and services.",
+      "python": "Experienced in data processing and, in parts, data analysis, API construction, Cron automations, and backend development with Python.",
+      "express": "Proficient in creating scalable web applications with Express.js.",
+      "fastAPI": "Skilled in building fast and high-performance APIs with FastAPI, leveraging its simplicity and data validation and automatic typing support.",
+      "graphql": "Experienced in building efficient and flexible APIs with GraphQL.",
+      "swagger": "Skilled in API documentation and testing with Swagger.",
+      "mysql": "Experienced in designing and optimizing relational databases.",
+      "mongodb": "Experienced in working with NoSQL databases for scalable applications.",
+      "postgresql": "Knowledgeable in handling complex queries and data modeling.",
+      "machineLearning": "Machine Learning",
+      "machineLearningDesc": "Beginner in developing and deploying machine learning models.",
+      "nlp": "Natural Language Processing",
+      "nlpDesc": "Studying NLP techniques and libraries for text analysis.",
+      "tensorflow": "Practicing building and training neural networks with TensorFlow."
+    },
+    "projects": {
+      "portReact": "Portfolio Development",
+      "cursoReact": "Small projects following course development",
+      "portfolio": "Personal Portfolio",
+      "blogPlatform": "Blog Platform",
+      "portHtml": "Personal Portfolio, test pages, and courses",
+      "landingPage": "Mobile-First Landing Page",
+      "chatApp": "Real-Time Chat Application",
+      "taskManagement": "Task Management API",
+      "dataAnalysis": "Data Analysis Tool",
+      "webScraping": "Web Scraping Service",
+      "ecommerceApi": "RESTful API for E-commerce",
+      "authService": "Authentication Service",
+      "fastMysql": "API with MySQL search and multiple routes with different queries and filters",
+      "fastMongo": "API with MongoDB search and multiple routes with different queries and filters",
+      "ecommerceProductApi": "E-commerce Product API",
+      "userManagement": "User Management System",
+      "fintechApiDocs": "API Documentation for Fintech App",
+      "travelApiSpec": "OpenAPI Specification for Travel API",
+      "automacao": "Data transfer processes for automations",
+      "inventoryManagement": "Inventory Management Database",
+      "realtimeAnalytics": "Real-Time Analytics Platform",
+      "cms": "Content Management System",
+      "geospatialApp": "Geospatial Data Application",
+      "financialReporting": "Financial Reporting System",
+      "predictiveMaintenance": "Predictive Maintenance System",
+      "churnPrediction": "Customer Churn Prediction Model",
+      "sentimentAnalysis": "Sentiment Analysis Tool",
+      "chatbotDevelopment": "Chatbot Development",
+      "imageClassification": "Image Classification Model",
+      "timeSeriesForecasting": "Time Series Forecasting"
+    }
+  },
+  "Projects": {
+    "title": "My Projects",
+    "date": "Date",
+    "team": "Team",
+    "codebase": "Codebase",
+    "tools": "Tools",
+    "keyFeatures": "Key Features",
+    "viewOnGithub": "View on GitHub",
+    "liveDemo": "Live Demo",
+    "projects": {
+      "software-modeling": {
+        "title": "Software Modeling - Online Purchase",
+        "description": "UML modeling of a purchase sequence carried out on an online platform, using different diagrams.",
+        "fullDescription": "This e-commerce platform provides a seamless shopping experience for users. It includes features such as user registration and authentication, product browsing with advanced filtering options, shopping cart functionality, secure checkout process, and integration with popular payment gateways. The admin panel allows easy management of products, orders, and user accounts."
+      },
+      "task-management-app": {
+        "title": "GJLR - Artificial Intelligence in Stock Market",
+        "description": "Using time series analysis to classify stocks and recommend for each investor profile.",
+        "fullDescription": "This task management app helps teams collaborate effectively by providing a centralized platform for creating, assigning, and tracking tasks. It features real-time updates, ensuring that all team members are always on the same page. The app includes project management tools, deadline tracking, and performance analytics to boost productivity and streamline workflows."
+      },
+      "EDA-Data": {
+        "title": "Exploratory Data Analysis",
+        "description": "Different cases and applications for listing, cleaning, and processing data.",
+        "fullDescription": "This AI chatbot uses advanced natural language processing techniques to understand and effectively respond to user queries. It is designed to provide instant customer support, answer frequently asked questions, and guide users through various processes. The chatbot integrates with existing knowledge bases and can be easily customized for different industries and use cases."
+      }
+    },
+    "features": {
+      "userAuth": "User authentication and authorization",
+      "productCatalog": "Product catalog with search and filter functionality",
+      "shoppingCart": "Shopping cart and wishlist management",
+      "paymentProcessing": "Secure payment processing with Stripe",
+      "adminPanel": "Admin panel for managing products and orders",
+      "responsiveDesign": "Responsive design for mobile and desktop",
+      "realTimeUpdates": "Real-time task updates and collaboration",
+      "projectManagement": "Project and team management",
+      "customizableBoards": "Customizable boards and task lists",
+      "timeTracking": "Time tracking and deadline management",
+      "fileAttachments": "File attachments and comments on tasks",
+      "performanceAnalytics": "Performance analysis and reporting",
+      "nlpUnderstanding": "Natural language understanding and generation",
+      "knowledgeBaseIntegration": "Integration with existing knowledge bases",
+      "multiLanguageSupport": "Multi-language support",
+      "sentimentAnalysis": "Sentiment analysis for customer feedback",
+      "industryCustomization": "Easy customization for different industries",
+      "analyticsDashboard": "Chatbot performance analytics dashboard"
+    }
+  },
+  "Curriculum": {
+    "title": "My Curriculum",
+    "all": "All",
+    "sections": {
+      "education": {
+        "title": "Education",
+        "items": {
+          "masters": {
+            "title": "Bachelor's Degree in Computer Science",
+            "subtitle": "Presbyterian University Mackenzie",
+            "date": "2019 - 2023",
+            "description": "The Computer Science program offers comprehensive training, preparing professionals to work in scientific development (theories, methods, languages, models, among others) as well as in creating essential tools for the Information Technology (IT) sector."
+          },
+          "bachelors": {
+            "title": "Conde Domingos School",
+            "subtitle": "3rd year - High School",
+            "date": "2017 - 2018",
+            "description": ""
+          },
+          "ensino": {
+            "title": "Mackenzie School",
+            "subtitle": "1st and 2nd year - High School",
+            "date": "2015 - 2017",
+            "description": ""
+          }
+        }
+      },
+      "experience": {
+        "title": "Professional Experience",
+        "items": {
+          "senior": {
+            "title": "Junior Development Analyst",
+            "subtitle": "Allcom Telecom",
+            "date": "2024/05 - Present",
+            "description": "Developer in the R&D team, creating internal solutions."
+          },
+          "fullstack": {
+            "title": "Programming Intern",
+            "subtitle": "Banco Arbi",
+            "date": "2022/07 - 2023/08",
+            "description": "I worked in the Bank's credit area, specifically with Receivables Anticipation and FGTS, learned the concepts of these topics, and created internal applications."
+          }
+        }
+      },
+      "languages": {
+        "title": "Languages",
+        "items": {
+          "item1": "English - Upper Intermediate (B2)",
+          "item2": "Spanish - Advanced (C1)",
+          "item3": "Portuguese - Native"
+        }
+      },
+      "certifications": {
+        "title": "Certifications",
+        "items": {
+          "item1": "Python the Complete Course - Udemy",
+          "item2": "Programming Logic: Practicing with Challenges - Alura",
+          "item3": "Front-end Development Training: courses to build web applications with HTML, CSS, and JavaScript - Alura",
+          "item4": "AI Development Training - Rocketseat"
+        }
+      },
+      "thesis": {
+        "title": "Thesis Project",
+        "projectTitle": "GJLR - Artificial Intelligence in the Stock Market",
+        "description": "With the growth of Brazilian investors seeking financial returns, various groups of users are investing in the stock market. Thus, there is an opportunity and need to help inexperienced users or even experienced users invest with greater ease, speed, and increased decision-making security. Technology is making life easier for many people today; the use of artificial intelligence is an excellent way to perform complex tasks quickly and efficiently. This project involves developing software capable of analyzing stock market quotes, using artificial intelligence and data science to forecast values proposed for the coming months, thus helping stock market investors by providing a broader base of indications and suggestions to invest their money.",
+        "achievements": {}
+      },
+      "skills": {
+        "title": "Skills and Technologies",
+        "categories": {
+          "programming": {
+            "title": "Programming Languages",
+            "items": {
+              "item1": "Python",
+              "item2": "JavaScript (ES6+)",
+              "item3": "HTML/CSS",
+              "item4": "C#"
+            }
+          },
+          "frameworks": {
+            "title": "Frameworks and Libraries",
+            "items": {
+              "item1": "React",
+              "item2": "Pandas",
+              "item3": "TensorFlow",
+              "item4": "Seaborn"
+            }
+          },
+          "tools": {
+            "title": "Tools and Platforms",
+            "items": {
+              "item1": "Git",
+              "item2": "Docker",
+              "item3": "Postman",
+              "item4": "Termius"
+            }
+          },
+          "soft": {
+            "title": "Interpersonal Skills",
+            "items": {
+              "item1": "Teamwork",
+              "item2": "Conflict Resolution",
+              "item3": "Technical Writing",
+              "item4": "Active Listening"
+            }
+          }
+        }
+      }
+    }
+  },
+"Contact": {
+  "title": "Get in Touch",
+  "contactInfo": "Contact Information",
+  "location": "São Paulo, Brazil",
+  "connectWithMe": "Connect With Me",
+  "sendMessage": "Send Me a Message",
+  "callToAction": "Let’s Create Something Amazing Together",
+  "callToActionDescription": "Whether for a project or just to say hello, I’d love to hear from you!",
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "sendButton": "Send Message",
+    "thankYouMessage": "Thank you for your message! I’ll get back to you soon."
+  }
+}
+}

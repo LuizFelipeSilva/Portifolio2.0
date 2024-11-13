@@ -1,0 +1,309 @@
+{
+  "Index": {
+    "title": "Mi Portafolio - LFOLS",
+    "description": "Bienvenido a mi portafolio",
+    "portfolioTitle": "Mi Portafolio",
+    "about": "Sobre mí",
+    "experiences": "Experiencias",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "curriculum": "Currículum",
+    "contact": "Contacto",
+    "welcome": "Bienvenido a Mi Portafolio",
+    "tagline": "Creando experiencias digitales y enriqueciendo mi conocimiento",
+    "rightsReserved": "Todos los derechos reservados."
+  },
+  "Header": {
+    "portfolioTitle": "Mi Portafolio",
+    "about": "Sobre mí",
+    "experiences": "Experiencias",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "curriculum": "Currículum",
+    "contact": "Contacto"
+  },
+  "Footer": {
+    "copyright": "Portafolio LFOLS. Todos los derechos reservados."
+  },
+  "About": {
+    "title": "Sobre Mí",
+    "whoAmI": {
+      "title": "¿Quién Soy?",
+      "paragraph1": "¡Hola! Soy Luiz Felipe de Oliveira Lacerda y Silva, tengo 22 años, soy brasileño y vivo en la zona Este de São Paulo (SP).",
+      "paragraph2": "Soy muy determinado y busco mis objetivos con mucha disciplina, integro mi crecimiento diario en varios aspectos de mi vida; mantengo una gran organización en mi rutina y ambientes, lo cual me ayuda a mantener mi progreso de manera dinámica. Sigo el principio de que todo es experiencia, cada día que vivimos podemos aprender cosas nuevas, solo necesitamos ver el lado que genera aprendizaje, para siempre ser mejores."
+    },
+    "myJourney": {
+      "title": "Mi Trayectoria",
+      "paragraph1": "En mi infancia desarrollé una gran pasión por los videojuegos, por la competitividad y los momentos divertidos con amigos, lo que me acercó a la tecnología. Crear posibilidades sin límites, que cambian la vida de las personas, ya sea creando nuevos entretenimientos o facilitando el día a día; poder formar parte de la creación de nuevos procesos me hizo decidir seguir en el campo de la tecnología.",
+      "paragraph2": "Ahora estoy viviendo este sueño cada día y, especializándome para poder impactar positivamente el desarrollo de soluciones."
+    },
+    "interests": {
+      "title": "Intereses",
+      "intro": "Además de la programación, soy apasionado por:",
+      "interest1": "Actividad física - Musculación",
+      "interest2": "Música",
+      "interest3": "Lectura",
+      "conclusion": "Estos intereses forman parte de mi rutina y disciplina, que me ayudan a crecer como persona y profesionalmente, además de mantener un equilibrio en mi vida."
+    },
+    "futureGoals": {
+      "title": "Objetivos Futuros",
+      "intro": "Mirando hacia el futuro, tengo varios objetivos y ambiciones que me impulsan:",
+      "goal1": "Dominar la aplicación de IA, para ampliar la eficiencia en diversos sectores",
+      "goal2": "Contribuir a proyectos innovadores, que aportarán soluciones diferentes y revolucionarias",
+      "goal3": "Liderar grupos motivados para elevar el nivel de la tecnología",
+      "goal4": "Mejorar el autoconocimiento y las relaciones interpersonales",
+      "conclusion": "Estos objetivos impulsan mi aprendizaje continuo y me motivan a explorar nuevos horizontes en el desarrollo de software."
+    },
+    "image1Alt": "Tu Imagen 1",
+    "image2Alt": "Tu Imagen 2",
+    "connect": {
+      "title": "¡Conectemos!",
+      "description": "Estoy siempre abierto a nuevas oportunidades, colaboraciones o simplemente una conversación amigable sobre tecnología.",
+      "emailButton": "Envíame un Email",
+      "linkedinButton": "LinkedIn"
+    }
+  },
+  "Skills": {
+    "title": "Mis Habilidades",
+    "subtitle": "Explora mi experiencia técnica en varios dominios del desarrollo de software",
+    "clickToViewSkills": "Haz clic para ver habilidades",
+    "experienceLevel": "Nivel de Experiencia",
+    "relatedProjects": "Proyectos Relacionados",
+    "experienceLevels": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
+    "categories": {
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "api": "API",
+      "database": "Base de Datos",
+      "ai": "IA"
+    },
+    "skills": {
+      "react": "Mejorando en la construcción de aplicaciones complejas y escalables con React y su ecosistema.",
+      "javaScript": "Conocimientos en JavaScript moderno, centrado en buenas prácticas, rendimiento y escritura de código limpio y eficiente.",
+      "htmlCss": "Experto en crear diseños web responsivos y accesibles.",
+      "C#": "Experiencia básica en el desarrollo de aplicaciones robustas y seguras con C#, utilizando el framework .NET para crear APIs y servicios backend escalables.",
+      "python": "Experimentado en procesamiento de datos y, en parte, análisis de datos, construcción de APIs, automatizaciones Cron y desarrollo backend con Python.",
+      "express": "Competente en la creación de aplicaciones web escalables con Express.js.",
+      "fastAPI": "Habilidad para construir APIs rápidas y de alto rendimiento con FastAPI, aprovechando su simplicidad y soporte de validación de datos y tipado automático.",
+      "graphql": "Experto en la construcción de APIs eficientes y flexibles con GraphQL.",
+      "swagger": "Hábil en documentación y pruebas de API con Swagger.",
+      "mysql": "Experimentado en diseño y optimización de bases de datos relacionales.",
+      "mongodb": "Experimentado en trabajar con bases de datos NoSQL para aplicaciones escalables.",
+      "postgresql": "Tengo conocimiento en consultas complejas y modelado de datos.",
+      "machineLearning": "Aprendizaje Automático",
+      "machineLearningDesc": "Principiante en el desarrollo e implementación de modelos de aprendizaje automático.",
+      "nlp": "Procesamiento de Lenguaje Natural",
+      "nlpDesc": "Estudiando técnicas y bibliotecas de PLN para análisis de texto.",
+      "tensorflow": "Practicando la construcción y entrenamiento de redes neuronales con TensorFlow."
+    },
+    "projects": {
+      "portReact": "Desarrollo del Portafolio",
+      "cursoReact": "Pequeños proyectos siguiendo el desarrollo de cursos",
+      "portfolio": "Portafolio Personal",
+      "blogPlatform": "Plataforma de Blog",
+      "portHtml": "Portafolio Personal, páginas de prueba y cursos",
+      "landingPage": "Página de Destino Mobile-First",
+      "chatApp": "Aplicación de Chat en Tiempo Real",
+      "taskManagement": "API de Gestión de Tareas",
+      "dataAnalysis": "Herramienta de Análisis de Datos",
+      "webScraping": "Servicio de Web Scraping",
+      "ecommerceApi": "API RESTful para E-commerce",
+      "authService": "Servicio de Autenticación",
+      "fastMysql": "API con búsqueda en MySQL y varias rutas con consultas y filtros diferentes",
+      "fastMongo": "API con búsqueda en MongoDb y varias rutas con consultas y filtros diferentes",
+      "ecommerceProductApi": "API de Productos de E-commerce",
+      "userManagement": "Sistema de Gestión de Usuarios",
+      "fintechApiDocs": "Documentación de API para App Fintech",
+      "travelApiSpec": "Especificación OpenAPI para API de Viajes",
+      "automacao": "Procesos de transferencia de datos de las automatizaciones",
+      "inventoryManagement": "Base de Datos de Gestión de Inventario",
+      "realtimeAnalytics": "Plataforma de Análisis en Tiempo Real",
+      "cms": "Sistema de Gestión de Contenidos",
+      "geospatialApp": "Aplicación de Datos Geoespaciales",
+      "financialReporting": "Sistema de Informes Financieros",
+      "predictiveMaintenance": "Sistema de Mantenimiento Predictivo",
+      "churnPrediction": "Modelo de Predicción de Abandono de Clientes",
+      "sentimentAnalysis": "Herramienta de Análisis de Sentimientos",
+      "chatbotDevelopment": "Desarrollo de Chatbot",
+      "imageClassification": "Modelo de Clasificación de Imágenes",
+      "timeSeriesForecasting": "Predicción de Series Temporales"
+    }
+  },
+  "Projects": {
+    "title": "Mis Proyectos",
+    "date": "Fecha",
+    "team": "Equipo",
+    "codebase": "Base de Código",
+    "tools": "Herramientas",
+    "keyFeatures": "Características Principales",
+    "viewOnGithub": "Ver en GitHub",
+    "liveDemo": "Demo en Vivo",
+    "projects": {
+      "software-modeling": {
+        "title": "Modelado de Software - Compra en línea",
+        "description": "Modelado UML de una secuencia de compra realizada en una plataforma en línea, utilizando diferentes diagramas.",
+        "fullDescription": "Esta plataforma de comercio electrónico ofrece una experiencia de compra fluida para los usuarios. Incluye funciones como registro y autenticación de usuarios, navegación de productos con opciones avanzadas de filtrado, funcionalidad de carrito de compras, proceso de pago seguro e integración con populares pasarelas de pago. El panel de administración permite la fácil gestión de productos, pedidos y cuentas de usuarios."
+      },
+      "task-management-app": {
+        "title": "GJLR - Inteligencia Artificial en la Bolsa de Valores",
+        "description": "Usando análisis de series temporales para clasificar acciones y recomendar a cada perfil de inversor.",
+        "fullDescription": "Esta aplicación de gestión de tareas ayuda a los equipos a colaborar eficazmente, proporcionando una plataforma centralizada para crear, asignar y realizar un seguimiento de las tareas. Incluye actualizaciones en tiempo real, asegurando que todos los miembros del equipo estén siempre en la misma página. La aplicación incluye herramientas de gestión de proyectos, seguimiento de plazos y análisis de rendimiento para aumentar la productividad y optimizar los flujos de trabajo."
+      },
+      "EDA-Data": {
+        "title": "Análisis Exploratorio de Datos",
+        "description": "Diferentes casos y aplicaciones para listar, limpiar y procesar datos.",
+        "fullDescription": "Este chatbot con IA utiliza técnicas avanzadas de procesamiento de lenguaje natural para comprender y responder eficazmente a las consultas de los usuarios. Está diseñado para proporcionar soporte instantáneo al cliente, responder preguntas frecuentes y guiar a los usuarios a través de varios procesos. El chatbot se integra con bases de conocimiento existentes y se puede personalizar fácilmente para diferentes industrias y casos de uso."
+      }
+    },
+    "features": {
+      "userAuth": "Autenticación y autorización de usuarios",
+      "productCatalog": "Catálogo de productos con función de búsqueda y filtrado",
+      "shoppingCart": "Gestión de carrito de compras y lista de deseos",
+      "paymentProcessing": "Procesamiento seguro de pagos con Stripe",
+      "adminPanel": "Panel de administración para gestionar productos y pedidos",
+      "responsiveDesign": "Diseño responsivo para dispositivos móviles y de escritorio",
+      "realTimeUpdates": "Actualizaciones de tareas en tiempo real y colaboración",
+      "projectManagement": "Gestión de proyectos y equipos",
+      "customizableBoards": "Tableros y listas de tareas personalizables",
+      "timeTracking": "Seguimiento de tiempo y gestión de plazos",
+      "fileAttachments": "Archivos adjuntos y comentarios en tareas",
+      "performanceAnalytics": "Análisis de rendimiento e informes",
+      "nlpUnderstanding": "Comprensión y generación de lenguaje natural",
+      "knowledgeBaseIntegration": "Integración con bases de conocimiento existentes",
+      "multiLanguageSupport": "Soporte multilingüe",
+      "sentimentAnalysis": "Análisis de sentimientos para retroalimentación de clientes",
+      "industryCustomization": "Fácil personalización para diferentes industrias",
+      "analyticsDashboard": "Panel de análisis de rendimiento del chatbot"
+    }
+  },
+  "Curriculum": {
+    "title": "Mi Currículum",
+    "all": "Todos",
+    "sections": {
+      "education": {
+        "title": "Educación",
+        "items": {
+          "masters": {
+            "title": "Grado en Ciencias de la Computación",
+            "subtitle": "Universidad Presbiteriana Mackenzie",
+            "date": "2019 - 2023",
+            "description": "El curso de Ciencias de la Computación ofrece una formación completa, preparando a los profesionales tanto para el desarrollo científico (teorías, métodos, lenguajes, modelos, entre otros) como para la creación de herramientas esenciales para el sector de Tecnología de la Información (TI)."
+          },
+          "bachelors": {
+            "title": "Colegio Conde Domingos",
+            "subtitle": "3º año - Educación Superior",
+            "date": "2017 - 2018",
+            "description": ""
+          },
+          "ensino": {
+            "title": "Colegio Mackenzie",
+            "subtitle": "1º y 2º año - Educación Superior",
+            "date": "2015 - 2017",
+            "description": ""
+          }
+        }
+      },
+      "experience": {
+        "title": "Experiencia Profesional",
+        "items": {
+          "senior": {
+            "title": "Analista de Desarrollo Jr",
+            "subtitle": "Allcom Telecom",
+            "date": "2024/05 - Presente",
+            "description": "Desarrollador en el equipo de I+D, creando soluciones internas."
+          },
+          "fullstack": {
+            "title": "Pasante de Programación",
+            "subtitle": "Banco Arbi",
+            "date": "2022/07 - 2023/08",
+            "description": "Trabajé en el área de crédito del Banco, específicamente con Anticipación de Recibos y FGTS, aprendí los conceptos de estos temas y realicé aplicaciones internas."
+          }
+        }
+      },
+      "languages": {
+        "title": "Idiomas",
+        "items": {
+          "item1": "Inglés - Intermedio Avanzado (B2)",
+          "item2": "Español - Avanzado (C1)",
+          "item3": "Portugués - Nativo"
+        }
+      },
+      "certifications": {
+        "title": "Certificaciones",
+        "items": {
+          "item1": "Python el Curso Completo - Udemy",
+          "item2": "Lógica de programación: practicando con desafíos - Alura",
+          "item3": "Formación en Desarrollo Front-end: cursos para crear aplicaciones web con HTML, CSS y JavaScript - Alura",
+          "item4": "Formación en Desarrollo de IA - Rocketseat"
+        }
+      },
+      "thesis": {
+        "title": "Proyecto de Tesis - TCC",
+        "projectTitle": "GJLR - Inteligencia Artificial en la Bolsa de Valores",
+        "description": "Con el crecimiento de los inversores brasileños, actualmente, en busca de retornos financieros, hay diversos grupos de usuarios invirtiendo en la bolsa de valores. De esta manera, surge la oportunidad y necesidad de ayudar a usuarios inexpertos en el tema o incluso ayudar a usuarios veteranos a invertir con mayor facilidad, rapidez y aumentar la seguridad en la toma de decisiones. La tecnología está facilitando la vida de muchas personas hoy en día; el uso de inteligencia artificial es una excelente manera de realizar tareas complejas de forma rápida y práctica. El trabajo es desarrollar un software capaz de analizar las cotizaciones en la bolsa de valores, junto con el uso de inteligencia artificial y ciencia de datos, para la previsión de valores propuestos para los próximos meses, facilitando así la vida de los inversores de la bolsa de valores que, mediante el uso de la herramienta, tendrán una mayor base de indicaciones y sugerencias para invertir su dinero.",
+        "achievements": {}
+      },
+      "skills": {
+        "title": "Habilidades y Tecnologías",
+        "categories": {
+          "programming": {
+            "title": "Lenguajes de Programación",
+            "items": {
+              "item1": "Python",
+              "item2": "JavaScript (ES6+)",
+              "item3": "HTML/CSS",
+              "item4": "C#"
+            }
+          },
+          "frameworks": {
+            "title": "Frameworks y Bibliotecas",
+            "items": {
+              "item1": "React",
+              "item2": "Pandas",
+              "item3": "TensorFlow",
+              "item4": "Seaborn"
+            }
+          },
+          "tools": {
+            "title": "Herramientas y Plataformas",
+            "items": {
+              "item1": "Git",
+              "item2": "Docker",
+              "item3": "Postman",
+              "item4": "Termius"
+            }
+          },
+          "soft": {
+            "title": "Habilidades Interpersonales",
+            "items": {
+              "item1": "Trabajo en Equipo",
+              "item2": "Resolución de Conflictos",
+              "item3": "Redacción Técnica",
+              "item4": "Escucha Activa"
+            }
+          }
+        }
+      }
+    }
+  },
+"Contact": {
+  "title": "Contáctame",
+  "contactInfo": "Información de Contacto",
+  "location": "São Paulo, Brasil",
+  "connectWithMe": "Conecta Conmigo",
+  "sendMessage": "Envíame un Mensaje",
+  "callToAction": "Creemos Algo Increíble Juntos",
+  "callToActionDescription": "Ya sea para un proyecto o simplemente para saludar, ¡me encantaría saber de ti!",
+  "form": {
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "sendButton": "Enviar Mensaje",
+    "thankYouMessage": "¡Gracias por tu mensaje! Me pondré en contacto contigo pronto."
+  }
+}
+}
