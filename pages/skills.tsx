@@ -5,7 +5,11 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Code, Database, Server, Cpu, Globe, X, Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { SectionProps } from './about';
+
+interface SectionProps {
+  title: string;
+  icon: React.ElementType;
+}
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +75,7 @@ const Header = () => {
 const Footer = () => {
   const t = useTranslations('Footer');
   return (
-    <footer className="bg-gray-800 text-white p-4  mt-8">
+    <footer className="bg-gray-800 text-white p-4 mt-8">
       <div className="container mx-auto text-center">
         <p>&copy; {new Date().getFullYear()} {t('copyright')}</p>
       </div>
@@ -100,9 +104,16 @@ const SkillCategory: React.FC<SectionProps & {
   );
 };
 
-const SkillDetail: React.FC<Omit<SectionProps, 'icon'> & {
-  onClose: () => void;
+interface Skill {
+  name: string;
+  experienceLevel: string;
+  description: string;
+  projects: string[];
+}
+
+const SkillDetail: React.FC<{
   skill: Skill;
+  onClose: () => void;
 }> = ({ skill, onClose }) => {
   const t = useTranslations('Skills');
   return (
@@ -130,17 +141,10 @@ const SkillDetail: React.FC<Omit<SectionProps, 'icon'> & {
   );
 };
 
-export interface Skill  {
-  name: string;
-  experienceLevel: string;
-  description: string;
-  projects: string[];
-}
-
 export default function Skills() {
   const t = useTranslations('Skills');
-  const [expandedCategory, setExpandedCategory] = useState<number>();
-  const [selectedSkill, setSelectedSkill] = useState<Skill>();
+  const [expandedCategory, setExpandedCategory] = useState<number | undefined>(undefined);
+  const [selectedSkill, setSelectedSkill] = useState<Skill | undefined>(undefined);
 
   const skillCategories = [
     {
@@ -195,18 +199,6 @@ export default function Skills() {
           description: t('skills.fastAPI'),
           projects: [t('projects.fastMysql'), t('projects.fastMongo')]
         },
-        // {
-        //   name: 'GraphQL',
-        //   experienceLevel: 'intermediate',
-        //   description: t('skills.graphql'),
-        //   projects: [t('projects.ecommerceProductApi'), t('projects.userManagement')]
-        // },
-        // {
-        //   name: 'Swagger',
-        //   experienceLevel: 'intermediate',
-        //   description: t('skills.swagger'),
-        //   projects: [t('projects.fintechApiDocs'), t('projects.travelApiSpec')]
-        // },
       ],
     },
     {
@@ -260,7 +252,7 @@ export default function Skills() {
   ];
 
   const handleCategoryClick = (index: number) => {
-    setExpandedCategory(expandedCategory === index ? undefined : index);
+    setExpandedCategory(prevExpanded => prevExpanded === index ? undefined : index);
     setSelectedSkill(undefined);
   };
 
@@ -278,11 +270,11 @@ export default function Skills() {
           {t('subtitle')}
         </p>
 
-        <div className={`flex flex-col ${expandedCategory !== null ? 'md:flex-row' : ''}`}>
+        <div className={`flex flex-col ${expandedCategory !== undefined ? 'md:flex-row' : ''}`}>
           <motion.div
             layout
             className={`grid gap-6 ${
-              expandedCategory !== null
+              expandedCategory !== undefined
                 ? 'md:w-2/5 grid-cols-2'
                 : 'w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'
             }`}
@@ -292,7 +284,6 @@ export default function Skills() {
                 <SkillCategory
                   key={index}
                   {...category}
-                  // isExpanded={expandedCategory === index}
                   onClick={() => handleCategoryClick(index)}
                 />
               ))}
@@ -300,7 +291,7 @@ export default function Skills() {
           </motion.div>
 
           <AnimatePresence>
-            {expandedCategory !== null && (
+            {expandedCategory !== undefined && (
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -315,9 +306,9 @@ export default function Skills() {
                   >
                     <X size={24} />
                   </button>
-                  <h2 className="text-3xl font-bold mb-4">{skillCategories[expandedCategory || 0].title}</h2>
+                  <h2 className="text-3xl font-bold mb-4">{skillCategories[expandedCategory]?.title}</h2>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    {skillCategories[expandedCategory || 0].skills.map((skill, index) => (
+                    {skillCategories[expandedCategory]?.skills.map((skill, index) => (
                       <motion.button
                         key={index}
                         initial={{ opacity: 0, y: 20 }}

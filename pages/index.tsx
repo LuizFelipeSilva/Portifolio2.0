@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -12,16 +12,31 @@ export default function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const router = useRouter();
   const t = useTranslations('Index');
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener('scroll', handleScroll);
+
+    // Attempt to play the video
+    const playVideo = async () => {
+      try {
+        if (videoRef.current) {
+          await videoRef.current.play();
+        }
+      } catch (error) {
+        console.error("Autoplay was prevented:", error);
+      }
+    };
+
+    playVideo();
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const changeLanguage = (locale) => {
+  const changeLanguage = (locale: string) => {
     router.push(router.pathname, router.asPath, { locale });
   };
 
@@ -43,9 +58,11 @@ export default function Home() {
 
       <div className="absolute inset-0 z-0">
         <video
+          ref={videoRef}
           autoPlay
           loop
           muted
+          playsInline
           className="w-full h-full object-cover"
         >
           <source src="/video-home.mp4" type="video/mp4" />
@@ -161,7 +178,7 @@ export default function Home() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
       messages: (await import(`../messages/${locale}.json`)).default
