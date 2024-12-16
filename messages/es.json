@@ -30,11 +30,11 @@
     "whoAmI": {
       "title": "¿Quién Soy?",
       "paragraph1": "¡Hola! Soy Luiz Felipe de Oliveira Lacerda y Silva, tengo 22 años, soy brasileño y vivo en la zona Este de São Paulo (SP).",
-      "paragraph2": "Soy muy determinado y busco mis objetivos con mucha disciplina, integro mi crecimiento diario en varios aspectos de mi vida; mantengo una gran organización en mi rutina y ambientes, lo cual me ayuda a mantener mi progreso de manera dinámica. Sigo el principio de que todo es experiencia, cada día que vivimos podemos aprender cosas nuevas, solo necesitamos ver el lado que genera aprendizaje, para siempre ser mejores."
+      "paragraph2": "Soy muy determinado y logro mis objetivos con mucha disciplina, integro mi crecimiento diario en varios aspectos de mi vida; mantengo una gran organización en mi rutina y en los entornos por los que me muevo, lo cual me ayuda a mantener mi progreso de manera dinámica. Sigo el principio de que todo es experiencia, cada día que vivimos podemos aprender cosas nuevas. Necesitamos solamente ver el lado que genera aprendizaje, para siempre ser mejores."
     },
     "myJourney": {
       "title": "Mi Trayectoria",
-      "paragraph1": "En mi infancia desarrollé una gran pasión por los videojuegos, por la competitividad y los momentos divertidos con amigos, lo que me acercó a la tecnología. Crear posibilidades sin límites, que cambian la vida de las personas, ya sea creando nuevos entretenimientos o facilitando el día a día; poder formar parte de la creación de nuevos procesos me hizo decidir seguir en el campo de la tecnología.",
+      "paragraph1": "En mi infancia desarrollé una gran pasión por los videojuegos, por la competitividad y los momentos divertidos con amigos, lo que me acercó a la tecnología. Crear posibilidades sin límites, que cambian y mejoran la vida de las personas, ya sea creando nuevas oportunidades de ocio o facilitando el día a día; poder formar parte de la creación de nuevos procesos me hizo decidir seguir en el campo de la tecnología.",
       "paragraph2": "Ahora estoy viviendo este sueño cada día y, especializándome para poder impactar positivamente el desarrollo de soluciones."
     },
     "interests": {
@@ -48,7 +48,7 @@
     "futureGoals": {
       "title": "Objetivos Futuros",
       "intro": "Mirando hacia el futuro, tengo varios objetivos y ambiciones que me impulsan:",
-      "goal1": "Dominar la aplicación de IA, para ampliar la eficiencia en diversos sectores",
+      "goal1": "Dominar la aplicación de IA, para ampliar la eficiencia y la eficacia en diversos sectores",
       "goal2": "Contribuir a proyectos innovadores, que aportarán soluciones diferentes y revolucionarias",
       "goal3": "Liderar grupos motivados para elevar el nivel de la tecnología",
       "goal4": "Mejorar el autoconocimiento y las relaciones interpersonales",
@@ -196,13 +196,13 @@
           "bachelors": {
             "title": "Colegio Conde Domingos",
             "subtitle": "3º año - Educación Superior",
-            "date": "2017 - 2018",
+            "date": "2018",
             "description": ""
           },
           "ensino": {
             "title": "Colegio Mackenzie",
             "subtitle": "1º y 2º año - Educación Superior",
-            "date": "2015 - 2017",
+            "date": "2016 - 2017",
             "description": ""
           }
         }
@@ -244,7 +244,7 @@
       "thesis": {
         "title": "Proyecto de Tesis - TCC",
         "projectTitle": "GJLR - Inteligencia Artificial en la Bolsa de Valores",
-        "description": "Con el crecimiento de los inversores brasileños, actualmente, en busca de retornos financieros, hay diversos grupos de usuarios invirtiendo en la bolsa de valores. De esta manera, surge la oportunidad y necesidad de ayudar a usuarios inexpertos en el tema o incluso ayudar a usuarios veteranos a invertir con mayor facilidad, rapidez y aumentar la seguridad en la toma de decisiones. La tecnología está facilitando la vida de muchas personas hoy en día; el uso de inteligencia artificial es una excelente manera de realizar tareas complejas de forma rápida y práctica. El trabajo es desarrollar un software capaz de analizar las cotizaciones en la bolsa de valores, junto con el uso de inteligencia artificial y ciencia de datos, para la previsión de valores propuestos para los próximos meses, facilitando así la vida de los inversores de la bolsa de valores que, mediante el uso de la herramienta, tendrán una mayor base de indicaciones y sugerencias para invertir su dinero.",
+        "description": "Con el actual crecimiento de los inversores brasileños en busca de retornos financieros, existen diversos grupos de usuarios que invierten en el mercado de valores. Considerando que muchos son inversores principiantes, surge la oportunidad y la necesidad de ayudar a usuarios novatos en este tema o incluso a inversores veteranos a invertir con mayor facilidad, rapidez y seguridad en la toma de decisiones. La tecnología está facilitando la vida de muchas personas hoy en día; el uso de inteligencia artificial es una excelente manera de realizar tareas complejas de manera rápida y práctica. El trabajo consistió en desarrollar un software capaz de analizar las cotizaciones en el mercado de valores, junto con el uso de inteligencia artificial y ciencia de datos, para la predicción de valores propuestos para los próximos meses, facilitando así la vida de los inversores del mercado de valores que, a través del uso de la herramienta, tendrán una base más amplia de recomendaciones y sugerencias para invertir sus recursos financieros.",
         "achievements": {}
       },
       "skills": {

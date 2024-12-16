@@ -29,12 +29,12 @@
       "title": "Sobre Mim",
       "whoAmI": {
         "title": "Quem Sou Eu?",
-        "paragraph1": "Olá! Eu sou Luiz Felipe de Oliveira Lacerda e Silva, tenho 22 anos, sou brasileiro e moro na zona Leste de São Paulo(SP).",
-        "paragraph2": "Sou muito determinado e busco meus objetivos com muita disciplina, agrego meu crescimento diário em vários aspectos da minha vida; mantenho uma grande organização na minha rotina e ambientes, que me ajudam a manter o meu progresso de forma mais dinâmica. Sigo um princípio de que tudo é experiência, cada dia que vivemos podemos absorver coisas novas, apenas precisamos enxergar o lado que gera o aprendizado, para sempre sermos melhores."
+        "paragraph1": "Olá! Sou o Luiz Felipe de Oliveira Lacerda e Silva, tenho 22 anos, sou brasileiro e moro na zona Leste de São Paulo(SP).",
+        "paragraph2": "Sou muito determinado e alcanço meus objetivos com muita disciplina, agrego meu crescimento diário em vários aspectos da minha vida; mantenho uma grande organização na minha rotina e nos ambientes que percorro, que me ajudam a manter o meu progresso de forma mais dinâmica. Sigo um princípio de que tudo é experiência, cada dia que vivemos podemos absorver coisas novas. Precisamos apenas enxergar o lado que gera o aprendizado, para sempre sermos melhores."
       },
       "myJourney": {
         "title": "Minha Jornada",
-        "paragraph1": "Na minha infância despertei uma paixão muito grande pelos games, pela competitividade e momentos divertidos com os amigos, o que me fez ficar mais próximo da tecnologia. Poder criar possibilidades sem limites, que mudam a vida das pessoas, seja criando novos lazeres ou facilitando o dia a dia; poder fazer parte da criação de novos processos me fez tomar a decisão de seguir a área da tecnologia.",
+        "paragraph1": "Na minha infância despertei uma paixão muito grande pelos games, pela competitividade e por momentos divertidos com os amigos, o que me fez ficar mais próximo da tecnologia. Poder criar possibilidades sem limites, que mudam e melhoram a vida das pessoas, seja criando novas oportunidade  de lazer ou facilitando o dia a dia; poder fazer parte da criação de novos processos me fez tomar a decisão de seguir a área da tecnologia.",
         "paragraph2": "Agora vivenciando esse sonho a cada dia e, me especializando para poder impactar positivamente o desenvolvimento de soluções."
       },
       "interests": {
@@ -43,15 +43,15 @@
         "interest1": "Atividade física - Musculação",
         "interest2": "Música",
         "interest3": "Leitura",
-        "conclusion": "Esses interesses fazem parte da minha rotina e disciplina, que me ajudam a crescer como pessoa e profissionalmente, além de manter um equilibrio em minha vida."
+        "conclusion": "Esses interesses fazem parte da minha rotina e disciplina, que me ajudam a crescer como ser humano e profissionalmente, além de manter um equilibrio em minha vida."
       },
       "futureGoals": {
         "title": "Objetivos Futuros",
         "intro": "Olhando para o futuro, tenho vários objetivos e ambições que me fazem seguir em frente:",
-        "goal1": "Dominar a aplicação de IA, para amplificar a eficiência em diversos setores",
+        "goal1": "Dominar a aplicação de IA, para ampliar a eficiência e eficácia em diversos setores",
         "goal2": "Contribuir para projetos inovadores, que trarão soluções diferentes e revolucionárias",
         "goal3": "Liderança de grupos motivados a elevar o nível da tecnologia",
-        "goal4": "Aperfeiçoar autoconhecimento e relações Interpessoais",
+        "goal4": "Aperfeiçoar o autoconhecimento e relações Interpessoais",
         "conclusion": "Esses objetivos impulsionam meu aprendizado contínuo e me motivam a explorar novos horizontes no desenvolvimento de software."
       },
       "image1Alt": "Sua Imagem 1",
@@ -88,7 +88,7 @@
         "C#": "Experiência básica no desenvolvimento de aplicações robustas e seguras com C#, utilizando o framework .NET para criar APIs e serviços backend escaláveis.",
         "python": "Experiente em processamento de dados e, em partes análise de dados, construção de APIs, automações Cron e desenvolvimento backend com Python.",
         "express": "Proficiente na criação de aplicações web escaláveis com Express.js.",
-        "fastAPI": "Habilidade em construir APIs rápidas e de alto desempenho com FastAPI, aproveitando sua simplicidade e suporte a validação de dados e tipagem automática.",
+        "fastAPI": "Habilidade em construir APIs rápidas e de alto desempenho com FastAPI, aproveitando sua simplicidade e suporte à validação de dados e tipagem automática.",
         "graphql": "Experiente na construção de APIs eficientes e flexíveis com GraphQL.",
         "swagger": "Habilidoso em documentação e testes de API com Swagger.",
         "mysql": "Experiente em projetar e otimizar bancos de dados relacionais.",
@@ -191,18 +191,18 @@
               "title": "Graduação em Ciência da Computação",
               "subtitle": "Universidade Presbiteriana Mackenzie",
               "date": "2019 - 2023",
-              "description": "O curso de Ciência da Computação oferece uma formação abrangente, preparando profissionais para atuar tanto no desenvolvimento científico (teorias, métodos, linguagens, modelos, entre outras) quanto na criação de ferramentas essenciais para o setor de Tecnologia da Informação (TI)."
+              "description": "O curso de Ciência da Computação oferece uma formação abrangente, preparando profissionais para atuar no desenvolvimento científico (teorias, métodos, linguagens, modelos, entre outras) bem como na criação de ferramentas essenciais para o setor de Tecnologia da Informação (TI)."
             },
             "bachelors": {
               "title": "Colégio Conde Domingos",
               "subtitle": "3º ano - Ensino Superior",
-              "date": "2017 - 2018",
+              "date": "2018",
               "description": ""
             },
             "ensino": {
               "title": "Colégio Mackenzie",
               "subtitle": "1º e 2º ano - Ensino Superior",
-              "date": "2015 - 2017",
+              "date": "2016 - 2017",
               "description": ""
             }
           }
@@ -220,7 +220,7 @@
               "title": "Estagiário de Programação",
               "subtitle": "Banco Arbi",
               "date": "2022/07 - 2023/08",
-              "description": "Trabalhei na área de crédito do Banco, especificamente com Antecipação de Recebíceis e FGTS, aprendi os conceitos desses assuntos e realizei aplicações internas."
+              "description": "Trabalhei na área de crédito do Banco, especificamente com Antecipação de Recebíveis e FGTS, aprendendo os conceitos desses assuntos e realizando aplicações internas."
             }
           }
         },
@@ -237,14 +237,14 @@
           "items": {
             "item1": "Python o Curso Completo - Udemy",
             "item2": "Lógica de programação: praticando com desafios - Alura",
-            "item3": "Formcação Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript - Alura",
+            "item3": "Formação Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript - Alura",
             "item4": "Formação Desenvolvimento de IA - Rocketseat"
           }
         },
         "thesis": {
           "title": "Projeto de Tese - TCC",
           "projectTitle": "GJLR - Inteligência Artificial na Bolsa de Valores",
-          "description": "Com o crescimento dos investidores brasileiros, atualmente, em busca de retornos financeiros, há diversos grupos de usuários investindo na bolsa de valores. Dessa forma, aparece a oportunidade e necessidade de ajudar usuários leigos no assunto ou até mesmo ajudar usuários veteranos a investir com maior facilidade, rapidez e aumentar a segurança na tomada de decisões. A tecnologia vem facilitando a vida de muitas pessoas atualmente; o uso de inteligência artificial é uma ótima maneira de executar tarefas complexas de maneira rápida e prática. O trabalho é desenvolver um software capaz de analisar as cotações na bolsa de valores, em conjunto ao uso de inteligência artificial e ciência de dados, para a previsão de valores propostos para os próximos meses, assim facilitando a vida de investidores da bolsa de valores que através do uso da ferramenta terão uma base maior de indicações e sugestões para investir seu dinheiro.",
+          "description": "Com o atual crescimento dos investidores brasileiros, em busca de retornos financeiros, existem diversos grupos de usuários investindo na bolsa de valores. Considerando que muitos são investidores iniciantes, aparece a oportunidade e necessidade de ajudar usuários leigos no assunto ou até mesmo ajudar usuários veteranos a investir com maior facilidade, rapidez e aumentar a segurança na tomada de decisões. A tecnologia vem facilitando a vida de muitas pessoas atualmente; o uso de inteligência artificial é uma ótima maneira de executar tarefas complexas de maneira rápida e prática. O trabalho foi desenvolver um software capaz de analisar as cotações na bolsa de valores, em conjunto ao uso de inteligência artificial e ciência de dados, para a previsão de valores propostos para os próximos meses, facilitando assim a vida de investidores da bolsa de valores que através do uso da ferramenta terão uma base mais ampla de indicações e sugestões para investir seus recursos financeiros.",
           "achievements": {
           }
         },

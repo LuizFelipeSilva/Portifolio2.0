@@ -30,11 +30,11 @@
     "whoAmI": {
       "title": "Who Am I?",
       "paragraph1": "Hello! I am Luiz Felipe de Oliveira Lacerda e Silva, 22 years old, Brazilian, and living in the East zone of São Paulo (SP).",
-      "paragraph2": "I am very determined and pursue my goals with discipline, integrating my daily growth across various aspects of my life; I maintain strong organization in my routines and environments, which helps keep my progress dynamic. I believe that everything is an experience; every day we live, we can learn something new. We just need to see the side that brings learning, to always become better."
+      "paragraph2": "I am very determined and achieve my goals with discipline, integrating my daily growth across various aspects of my life; I maintain strong organization in my routine and the environments I go through, which helps keep my progress dynamic. I believe that everything is an experience; every day we live, we can learn something new. We just need to see the side that brings learning, to always become better."
     },
     "myJourney": {
       "title": "My Journey",
-      "paragraph1": "In my childhood, I developed a great passion for games, for competition, and for fun moments with friends, which brought me closer to technology. Creating limitless possibilities that can change people’s lives, whether by creating new entertainment or making daily life easier; being part of the creation of new processes led me to decide to follow a career in technology.",
+      "paragraph1": "In my childhood, I developed a great passion for games, for competition, and for fun moments with friends, which brought me closer to technology. Creating limitless possibilities that can change and improve people's lives, whether by creating new leisure opportunities or making daily life easier; being part of the creation of new processes led me to decide to follow a career in technology.",
       "paragraph2": "Now, I am living this dream every day and specializing to positively impact solution development."
     },
     "interests": {
@@ -48,7 +48,7 @@
     "futureGoals": {
       "title": "Future Goals",
       "intro": "Looking ahead, I have several goals and ambitions that keep me moving forward:",
-      "goal1": "Master AI applications to amplify efficiency in various sectors",
+      "goal1": "Master AI applications to amplify efficiency and effectiveness in various sectors",
       "goal2": "Contribute to innovative projects that bring different and revolutionary solutions",
       "goal3": "Lead teams motivated to elevate the level of technology",
       "goal4": "Enhance self-knowledge and interpersonal relationships",
@@ -196,13 +196,13 @@
           "bachelors": {
             "title": "Conde Domingos School",
             "subtitle": "3rd year - High School",
-            "date": "2017 - 2018",
+            "date": "2018",
             "description": ""
           },
           "ensino": {
             "title": "Mackenzie School",
             "subtitle": "1st and 2nd year - High School",
-            "date": "2015 - 2017",
+            "date": "2016 - 2017",
             "description": ""
           }
         }
@@ -244,7 +244,7 @@
       "thesis": {
         "title": "Thesis Project",
         "projectTitle": "GJLR - Artificial Intelligence in the Stock Market",
-        "description": "With the growth of Brazilian investors seeking financial returns, various groups of users are investing in the stock market. Thus, there is an opportunity and need to help inexperienced users or even experienced users invest with greater ease, speed, and increased decision-making security. Technology is making life easier for many people today; the use of artificial intelligence is an excellent way to perform complex tasks quickly and efficiently. This project involves developing software capable of analyzing stock market quotes, using artificial intelligence and data science to forecast values proposed for the coming months, thus helping stock market investors by providing a broader base of indications and suggestions to invest their money.",
+        "description": "With the current growth of Brazilian investors seeking financial returns, there are various groups of users investing in the stock market. Considering that many are beginner investors, the opportunity and need arise to assist lay users in this field or even help veteran users invest more easily, quickly, and securely in decision-making. Technology has been simplifying the lives of many people today; the use of artificial intelligence is an excellent way to perform complex tasks quickly and practically. The project aimed to develop software capable of analyzing stock market quotations, combined with the use of artificial intelligence and data science, to predict proposed values for the coming months, thus making life easier for stock market investors. Through the use of this tool, they will have a broader base of recommendations and suggestions to invest their financial resources.",
         "achievements": {}
       },
       "skills": {
